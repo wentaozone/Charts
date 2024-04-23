@@ -41,8 +41,8 @@ open class RadarChartView: PieRadarChartViewBase
     /// the object reprsenting the y-axis labels
     private var _yAxis: YAxis!
     
-    internal var _yAxisRenderer: YAxisRendererRadarChart!
-    internal var _xAxisRenderer: XAxisRendererRadarChart!
+    public var _yAxisRenderer: YAxisRendererRadarChart!
+    public var _xAxisRenderer: XAxisRendererRadarChart!
     
     public override init(frame: CGRect)
     {
